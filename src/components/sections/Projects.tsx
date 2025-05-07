@@ -12,20 +12,20 @@ const Projects = () => {
       tags: ['React', 'Node.js', 'MongoDB', 'IA'],
       link: '#',
     },
-    {
-      title: 'E-commerce Personalizado',
-      description: 'Loja virtual com experiência de compra personalizada.',
-      image: '/projects/project2.svg',
-      tags: ['Next.js', 'TypeScript', 'Tailwind', 'Stripe'],
-      link: '#',
-    },
-    {
-      title: 'App de Saúde Digital',
-      description: 'Aplicativo para monitoramento de saúde e bem-estar.',
-      image: '/projects/project3.svg',
-      tags: ['React Native', 'Python', 'PostgreSQL', 'ML'],
-      link: '#',
-    },
+    // {
+    //   title: 'E-commerce Personalizado',
+    //   description: 'Loja virtual com experiência de compra personalizada.',
+    //   image: '/projects/project2.svg',
+    //   tags: ['Next.js', 'TypeScript', 'Tailwind', 'Stripe'],
+    //   link: '#',
+    // },
+    // {
+    //   title: 'App de Saúde Digital',
+    //   description: 'Aplicativo para monitoramento de saúde e bem-estar.',
+    //   image: '/projects/project3.svg',
+    //   tags: ['React Native', 'Python', 'PostgreSQL', 'ML'],
+    //   link: '#',
+    // },
   ];
 
   return (
@@ -101,20 +101,7 @@ const Projects = () => {
           ))}
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          className="text-center mt-12"
-        >
-          <a
-            href="#contact"
-            className="btn-primary"
-          >
-            Quero um projeto como este
-          </a>
-        </motion.div>
+        
       </div>
     </section>
   );
