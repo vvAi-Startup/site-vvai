@@ -64,7 +64,7 @@ export default function Home() {
             '@type': 'Organization',
             name: 'VVAI',
             url: 'https://vvai.com.br',
-            logo: 'https://vvai.com.br/logo.svg',
+            logo: '/logos/logo_fundo_escuro_1',
             description: 'Somos a VVAI, uma equipe apaixonada por transformar ideias em soluções tecnológicas inovadoras.',
             address: {
               '@type': 'PostalAddress',
