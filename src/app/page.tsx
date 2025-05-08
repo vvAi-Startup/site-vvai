@@ -15,6 +15,17 @@ export const metadata: Metadata = {
   description: 'Somos a VVAI, uma equipe apaixonada por transformar ideias em soluções tecnológicas inovadoras. Desenvolvemos projetos com as mais modernas tecnologias.',
   keywords: 'VVAI, tecnologia, inovação, desenvolvimento, software, equipe, inteligência artificial, machine learning, web development, mobile development',
   authors: [{ name: 'VVAI Team' }],
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
+  manifest: '/site.webmanifest',
   openGraph: {
     title: 'VVAI - Inovação e Tecnologia para o Futuro',
     description: 'Somos a VVAI, uma equipe apaixonada por transformar ideias em soluções tecnológicas inovadoras.',
@@ -23,7 +34,7 @@ export const metadata: Metadata = {
     siteName: 'VVAI',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/logos/logo_fundo_escuro_1.png',
         width: 1200,
         height: 630,
         alt: 'VVAI - Inovação e Tecnologia',
@@ -34,7 +45,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'VVAI - Inovação e Tecnologia para o Futuro',
     description: 'Somos a VVAI, uma equipe apaixonada por transformar ideias em soluções tecnológicas inovadoras.',
-    images: ['/og-image.jpg'],
+    images: ['/logos/logo_fundo_escuro_1.png'],
   },
   robots: {
     index: true,
